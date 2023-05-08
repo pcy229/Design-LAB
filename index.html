@@ -14,10 +14,22 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <!--feather icon 추가 아이콘 라이브러리, 아이콘 불러올시 i data-feather="#" 이용-->
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="assest/js/includeHTML.js"></script>
 </head>
 <body>
+    <div id="nav"></div>
+    <script>
+    async function fetchHtmlAsText(url) {
+        return await (await fetch(url)).text();
+    }
+    
+    async function importPage(target) {
+        document.querySelector('#' + target).innerHTML = await fetchHtmlAsText(target + '.html');
+    }
+    importPage('nav');
+    </script>
     <!--nav-->
-    <div class="site__container">
+    <!--<div class="site__container">
         <header class="site__header">
             <div class="nav">
                 <a href="index.html" class="logo">
@@ -38,12 +50,13 @@
                 </ul>               
             </div>
         </header>
-    </div>
+    </div>-->
+
+    <!--MAIN-->
 
     <div class="main">
         <div class="title">
-            <br>            
-            <img src="DESIGN LAB-logo.png"  width="200px" hieght="200px" position="absolute"></a>
+           <img src="DESIGN LAB-logo.png"  width="200px" hieght="200px" position="absolute">
         </div>
        <!--<div class="subtitle">
            Design LAB by pcy 229
@@ -55,4 +68,7 @@
 
     <script src="script.js"></script>
 </body>
+<script>
+    includeHTML();
+</script>
 </html>
