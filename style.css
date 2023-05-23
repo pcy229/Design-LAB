@@ -180,3 +180,18 @@ html,body{
         object-fit: cover;
         display: block;
   }
+
+/*sidebar*/
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* 사이드바가 숨겨진 초기 위치 */
+    width: 250px;
+    height: 100vh;
+    background-color: #f1f1f1;
+    transition: left 0.3s ease-in-out;
+    z-index: 100;
+}
+
+
+
