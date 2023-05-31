@@ -1,64 +1,32 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <title>Design LAB</title>
-    <!-- 구글폰트 - Montserrat -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Pretendard 폰트 -->
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!--feather icon 추가 아이콘 라이브러리, 아이콘 불러올시 i data-feather="#" 이용-->
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-    <div id="nav"></div>
-    <div class="site__container">
-        <header class="site__header">
-            <div class="nav">
-                <a href="index.html" class="logo">
-                    <img src="DESIGN LAB-logo.png"  width="100px" hieght="50px" position="absolute"></a><!--<h1 class="logo">Design<span>LAB</span> </h1>-->
-                <ul class="nav-menu"> 
-                    <li class="nav-menu__item">
-                        <a href="index.html"><i data-feather="home"></i></a>
-                    </li>
-                    <li class="nav-menu__item">
-                        <a href="#"><i data-feather="instagram"></i></a>
-                    </li>
-                    <li class="nav-menu__item">
-                        <a href="https://github.com/pcy229/Design-LAB" target="_blank"><i data-feather="github"></i></a>
-                    </li>
-                    <li class="nav-menu__item menu">
-                        <a href="#" onclick="toggleSidebar()"><i data-feather="align-justify"></i></a>                    
-                    </li>
-                </ul>               
-            </div>
-        </header>
+    <div id="main">
+        <div id="sidebar">
+            <nav><ul id='sidebarul'>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Portofolio.html">Portofolio</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="https://github.com/pcy229/Design-LAB" target="_blank">LAB CODE</a></li>
+                <li><a href="https://github.com/pcy229/pcy229.github.io"target="_blank">Github</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div id='mainimg'><img src="img/R1280x0.jpeg" alt="logo"></div>
+        <div id='maintext'>Design LAB</div>
+        <div id="mainsubtext">
+            <p>by PCY229</p>
+            <br>
+            <p>- Gachon Univ. Indsutrial Dept.</p>
+        </div>
     </div>
-    <div id="sidebar">
-    <nav>
-        <ul id='sidebarul'>
-            <li><a href="index.html" style="text-decoration: none color="inherit";=>Home</i></a></li>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Blog</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-</div>
-    <br><br>
-    <figure class="banner-image">
-        <a href="index1.html"><img src="img/01.jpg" alt="blog banner-image"></a>
-    </figure>
-
-    <script src="script.js"></script>
-    <script>
-        feather.replace()
-    </script>
 </body>
 </html>
