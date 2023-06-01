@@ -43,8 +43,8 @@ a {
     width: 600px;
     height: 526px;
     position: absolute;
-    top: 50%;
-    left: 60%;
+    top: 55%;
+    left: 55%;
     transform: translate(-50%, -50%);
     
 }
@@ -55,9 +55,11 @@ a {
 
 #mainsubtext {
     position: absolute;
-    top:460px;
-    left:470px;
+    top:532px;
+    left:550px;
     width : 230px;
+    font-style:italic;
+    color:#83322c;
 }
 
 
