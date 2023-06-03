@@ -226,7 +226,106 @@ ul {
 #portfolio > .content > .textcontent > .sublink > a{
     padding: 10px;
     background-color: #7e4141;
-    color:white;
+    color:aliceblue;
+    border-radius:20px;
+    display: inline-block;
+}
+
+/*Blog*/
+
+#blog{
+    position: absolute;
+    left: 200px;
+    width: 1240px;
+    height: auto;
+  
+}
+
+#blog > .title{
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+#blog > .content{
+    margin-top: 50px;
+    width: 1240px;
+    float: left;
+
+}
+
+#blog > .content > .image {
+    float: left;
+    width: 500px;
+    margin-left: 60px;
+    
+    
+}
+
+#blog > .content > .textcontent {
+    float: right;
+    width: 680px;
+   
+}
+
+#blog > .content > .textcontent > .subtitle {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+   
+}
+
+#blog > .content > .textcontent > .subtitle > span{
+    padding: 10px;
+    color: white;
+    background-color: #864C4C;
+    display: inline-block;
+    border: 1px solid #864C4C ;
+    border-radius: 20px;
+}
+
+#blog > .content > .textcontent > .subdescription {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top:40px;
+    text-align: center;
+   
+}
+
+#blog > .content > .textcontent > .sublink {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#blog > .content > .textcontent > .subdescription > span {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+
+}
+
+#blog > .content > .textcontent > .sublink > span {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+}
+
+/*blog content and img*/
+
+#blog > .content > .image > img{
+    max-width: 100%;
+    float: left;
+    border-radius: 20px;
+
+}
+
+#blog > .content > .textcontent > .sublink > a{
+    padding: 10px;
+    background-color: #7e4141;
+    color:aliceblue;
     border-radius:20px;
     display: inline-block;
 }
