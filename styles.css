@@ -79,7 +79,7 @@ a {
 #mainsubtext > p:nth-child(1){
     font-size:30px;
     
-}
+} /*p:nth-child = */
 #mainsubtext > p:nth-child(2){
     font-size:15px;
     
@@ -139,47 +139,51 @@ ul {
     left: 200px;
     width: 1240px;
     height: auto;
-    border:1px solid red;
+  
 }
 
 #portfolio > .title{
     font-size: 60px;
     font-weight: 900;
     text-align: center;
-    border: 1px solid red;
+    
 }
 
 #portfolio > .content{
     margin-top: 50px;
     width: 1240px;
-    border: 1px solid red;
+    float: left;
+
 }
 
 #portfolio > .content > .image {
     float: left;
     width: 500px;
-    border: 1px solid red;
+    margin-left: 60px;
+    
+    
 }
 
 #portfolio > .content > .textcontent {
-    float: left;
-    width: 730px;
-    border: 1px solid red;
+    float: right;
+    width: 680px;
+   
 }
 
 #portfolio > .content > .textcontent > .subtitle {
     font-size: 35px;
     font-weight: 400;
     text-align: center;
-    border: 1px solid red;
+   
 }
 
-#portfolio > .content > .textcontent > .subtitle>span{
+#portfolio > .content > .textcontent > .subtitle > span{
     padding: 10px;
     color: white;
-    background-color: black;
+    background-color: #864C4C;
     display: inline-block;
-    border: 1px solid blue;
+    border: 1px solid #864C4C ;
+    border-radius: 20px;
 }
 
 #portfolio > .content > .textcontent > .subdescription {
@@ -187,27 +191,42 @@ ul {
     font-weight: 100;
     margin-top:40px;
     text-align: center;
-    border: 1px solid red;
+   
 }
 
 #portfolio > .content > .textcontent > .sublink {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     margin-top: 30px;
     text-align: center;
-    border: 1px solid red;
 }
 
 #portfolio > .content > .textcontent > .subdescription > span {
     display: inline-block;
     width: 500px;
     text-align: left;
-    border: 1px solid blue;
+
 }
 
 #portfolio > .content > .textcontent > .sublink > span {
     display: inline-block;
     width: 500px;
     text-align: left;
-    border: 1px solid blue;
+}
+
+/*portfolio content and img*/
+
+#portfolio > .content > .image > img{
+    max-width: 100%;
+    float: left;
+    border-radius: 20px;
+
+}
+
+#portfolio > .content > .textcontent > .sublink > a{
+    padding: 10px;
+    background-color: #7e4141;
+    color:white;
+    border-radius:20px;
+    display: inline-block;
 }
