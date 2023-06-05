@@ -505,7 +505,7 @@ ul {
     display: inline-block;
     width:520px;
     height: 21px;
-    
+    background-color: #d2dae5;
 }
 #myskills > .skill > .progressbar >.gauge{
     display: inline-block;
@@ -518,6 +518,37 @@ ul {
     height: 21px;
     text-align:center;
     font-size:15px;
-    font-weight: 100;
-  
+    font-weight: 100;   
 }
+
+#myskills > .skill > .progressbar >.gauge{
+    display: inline-block;
+    width:80%;
+    height: 21px;
+    background-color: #864C4C;
+    border-radius: 10px;
+}
+
+#myskills > .skill > .progressbar >.gauge1{
+    display: inline-block;
+    width:70%;
+    height: 21px;
+    background-color: #864C4C;
+    border-radius: 10px;
+}
+
+#myskills > .skill > .progressbar >.gauge2{
+    display: inline-block;
+    width:50%;
+    height: 21px;
+    background-color: #864C4C;
+    border-radius: 10px;
+}
+#myskills > .skill > .progressbar >.gauge3{
+    display: inline-block;
+    width:40%;
+    height: 21px;
+    background-color: #864C4C;
+    border-radius: 10px;
+}
+
