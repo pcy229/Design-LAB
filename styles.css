@@ -481,7 +481,7 @@ ul {
     left:730px;
     width: 600px;
     height: 540px;
-    border: 2px solid red;
+    
 }
 
 #myskills > .title{
@@ -491,7 +491,7 @@ ul {
 }
 #myskills > .skill{
     width:600px;
-    border:3px solid blue;
+   
 }
 #myskills > .skill > .skillname{
     display: inline-block;
@@ -499,13 +499,18 @@ ul {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-    border:3px solid blue;
+   
 }
 #myskills > .skill > .progressbar{
     display: inline-block;
     width:520px;
     height: 21px;
-    border: 3px solid blue;
+    
+}
+#myskills > .skill > .progressbar >.gauge{
+    display: inline-block;
+    width:520px;
+    height: 21px;    
 }
 #myskills > .skill > .skillpercentage{
     display: inline-block;
@@ -514,5 +519,5 @@ ul {
     text-align:center;
     font-size:15px;
     font-weight: 100;
-    border: 3px solid blue;
+  
 }
