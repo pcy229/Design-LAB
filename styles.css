@@ -428,3 +428,64 @@ ul {
     height: 100%;
     object-fit: cover;
 }
+
+/*About*/
+
+#aboutimg{
+    position: absolute;
+    top: 150px;
+    left: 260px;
+    width: 375px;
+    height: 500px;
+    
+}
+#aboutimg > img{
+    max-width: 100%;
+    border-radius: 64px;
+}
+#myname{
+    position: absolute;
+    top:540px;
+    left: 330px;
+    width: 380px;
+    height: 60px;
+    
+}
+#myname >span{
+    font-size:30px;
+    font-weight:500;
+    background-color: #864C4C;
+    border-radius: 10px;
+    color:aliceblue
+}
+
+#introduce{
+    position: absolute;
+    top: 220px;
+    left:730px;
+    width: 600px;
+    height: 210px;
+}
+#introduce > span{
+    font-size:20px;
+    font-weight: 700;
+}
+#introduce > ul{
+    list-style: none;
+}
+
+
+#myskills{
+    position: absolute;
+    top: 535px;
+    left:730px;
+    width: 600px;
+    height: 540px;
+    border: 2px solid red;
+}
+
+#myskills > .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
