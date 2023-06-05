@@ -73,24 +73,8 @@ a {
     width : 230px;
     font-style:italic;
     color:#864C4C;
-}
-
-
-#mainsubtext > p:nth-child(1){
-    font-size:30px;
-    
-} /*p:nth-child = */
-#mainsubtext > p:nth-child(2){
     font-size:15px;
-    
 }
-
-p{
-    margin:0;
-}
-
-
-
 /*sidebar*/
 
 #sidebar {
